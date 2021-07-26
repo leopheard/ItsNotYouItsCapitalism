@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.audio.itsnotyouitscapitalism" name="It's Not You, It's Capitalism" version="1.0.0" provider-name="leopheard">
+  <requires>
+    <import addon="xbmc.python" version="2.26.0"/>
+    <import addon="script.module.xbmcswift2" version="2.4.0"/>
+    <import addon="script.module.beautifulsoup4" version="4.3.1"/>
+    <import addon="script.module.requests" version="1.1.0"/>
+    <import addon="script.module.routing" version="0.2.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>audio</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <language>en_us</language>
+    <summary lang="en">It's Not You, It's Capitalism</summary>
+    <description lang="en">Ever wonder why everyone hates Mondays? Or why are we witnessing the ‘end-of-times’ style collapse of modern society? Or why you work your ass off everyday and still struggle to get by? Our answer: it’s not you, it’s capitalism! Socialist activists Monica Cruz + Rachel Hu join southern-raised cultural educator and organizer Ciara Taylor to talk all things feminist, political, and cultural. In a vanilla media landscape swamped with empty analysis, It’s Not You, It’s Capitalism brings you a critical dose of BS-free conversation and progressive politics.</description>
+    <license>The MIT License (MIT)</license>
+    <forum></forum>
+    <email>leopheard@gmail.com</email>
+    <source>https://github.com/leopheard/ItsNotYouItsCapitalism</source>
+    <website>https://www.breakthroughnews.org/</website>
+        	<assets>
+			<icon>resources/media/icon.jpg</icon>
+			<fanart>resources/media/fanart.jpg</fanart>
+			<screenshot>resources/media/1.jpg</screenshot>
+			<screenshot>resources/media/2.jpg</screenshot>
+			<screenshot>resources/media/3.jpg</screenshot>
+		</assets>
+  </extension>
+</addon>
